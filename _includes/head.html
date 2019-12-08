@@ -1,0 +1,19 @@
+<head>
+  <!-- <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js"></script> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ site.baseurl }}{{ site.data.manifest['docs.css'] }}"
+  />
+  <title>
+    {% if page.section == "home" %}{{ site.title }}{% else %}{{
+      page.title | default: site.title
+    }}{% endif %}
+  </title>
+  {% if jekyll.environment == 'production' and site.analytics %} {% include
+  analytics.html %} {% endif %}
+</head>

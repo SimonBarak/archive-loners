@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<section>
+  <div class="max-w-lg mx-auto text-4xl my-12 px-4 text-block">
+    {{ page.desription }}
+  </div>
+</section>
+<section>
+  <div class="max-w-lg px-4 mx-auto text-xl">
+    <div class="border-2 rounded border-gray-400">
+      <a
+        class="flex px-5 py-3 block border-b-2 border-gray-400 hover:bg-gray-300"
+        href="{{site.baseurl}}/zivotopis.html"
+      >
+        <div class="flex-grow">
+          Životopis
+        </div>
+        <div>⟶</div>
+      </a>
+
+      <a
+        class="flex px-5 py-3 border-b-2 border-gray-400 hover:bg-gray-300"
+        href="{{site.baseurl}}/oceneni.html"
+      >
+        <div class="flex-grow">
+          Ocenění
+        </div>
+        <div>⟶</div>
+      </a>
+
+      <a
+        class="flex px-5 py-3 hover:bg-gray-300"
+        href="{{site.baseurl}}/spoluprace.html"
+      >
+        <div class="flex-grow">
+          Spolupráce
+        </div>
+        <div>⟶</div>
+      </a>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="max-w-lg mx-auto text-lg my-12 px-4 text-block pb-24">
+    {{ content }}
+  </div>
+</section>

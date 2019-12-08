@@ -1,0 +1,25 @@
+<div class="relative">
+  <div
+    id="map"
+    class="h-70"
+    data-pin-lon="{{ page.longitude }}"
+    data-pin-lat="{{ page.latitude}}"
+  ></div>
+  <div class="md:absolute md:top-0 z-10">
+    {%- for item in site.projects -%}
+    <div
+      class="map-location p-6"
+      data-lon="{{ item.longitude }}"
+      data-lat="{{ item.latitude }}"
+      
+      {% if item.longitude == page.longitude %}
+        data-marked="true"  
+      {% endif %}  
+    >
+      {%- include project-card-md.html -%}
+      
+    </div>
+
+    {%- endfor -%}
+  </div>
+</div>
