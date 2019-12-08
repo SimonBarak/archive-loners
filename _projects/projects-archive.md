@@ -15,7 +15,7 @@ examples:
 - name: MP Architekt
   thumb: "/v1571136583/loners/63C2FAB7-B62C-4596-8C3F-3C85F72D636A_skufog.jpg"
   link: http://mparch.cz/
-  image: ''
+  image: "/v1575834501/loners/Screenshot_2019-12-08_20.43.22_cy8hbj.jpg"
 - name: Jakub Ra
   link: http://jakubra.com/
   thumb: "/v1571136583/loners/63C2FAB7-B62C-4596-8C3F-3C85F72D636A_skufog.jpg"
