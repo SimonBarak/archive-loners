@@ -19,7 +19,7 @@ examples:
 - name: Jakub Ra
   link: http://jakubra.com/
   thumb: "/v1571136583/loners/63C2FAB7-B62C-4596-8C3F-3C85F72D636A_skufog.jpg"
-  image: ''
+  image: "/v1575834714/loners/jakub-thumb_u8brrk.jpg"
 - name: Tereza Vinklárková
   link: https://lonerscompany.github.io/veronica/
   thumb: "/v1571136583/loners/63C2FAB7-B62C-4596-8C3F-3C85F72D636A_skufog.jpg"
