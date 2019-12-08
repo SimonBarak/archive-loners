@@ -23,7 +23,7 @@ examples:
 - name: Tereza Vinklárková
   link: https://lonerscompany.github.io/veronica/
   thumb: "/v1571136583/loners/63C2FAB7-B62C-4596-8C3F-3C85F72D636A_skufog.jpg"
-  image: ''
+  image: "/v1575834936/loners/tereza-thumb_utx5a5.jpg"
 
 ---
 Tool for collecting information about projects with output
