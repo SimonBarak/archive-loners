@@ -1,14 +1,12 @@
 <div class="swiper-slide rounded overflow-hidden shadow-lg bg-gray-000">
-  <a class="block" href="{{ site.baseurl }}{{ item.url }}">
+  <a class="block" href="{{ site.baseurl }}{{ include.url }}">
     <img
       class="w-full object-cover"
       src="{{ site.img_url }}c_thumb,h_300,w_500{{ include.image }}"
       alt="{{ project.title }}, {{ site.title }}"
     />
     <div class="py-2 px-3">
-      <p class="text-lg">{{ item.location }}</p>
-      <!-- <p class="text-lg ">{{ item.title }}</p> -->
-      <p class="text-lg ">{{ item.title }}</p>
+      <p class="text-lg ">{{ include.name }}</p>
     </div>
   </a>
 </div>

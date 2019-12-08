@@ -3,22 +3,26 @@ layout: default
 ---
 
 <div class="bg-gradient">
-  <div class="mt-40 max-w-xl text-2xl mx-auto mb-40 px-4 text-block">
+  <div class="mt-40 max-w-xl text-2xl mx-auto px-4 text-block">
     {{ content }}
   </div>
-
-  <div class="swiper-container" data-swiper="cards">
-    <div class="swiper-pagination"></div>
-    <div class="swiper-wrapper">
-      {%- for item in page.examples -%}
-      <div class="swiper-slide py-6">
-        {%- include swiper-card-md.html image=item.image -%}
+  <section class="pb-40"">
+    <div class="container mx-auto px-4">
+      <div class="swiper-container" data-swiper="cards">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          {%- for item in page.examples -%}
+          <div class="swiper-slide py-6">
+            {%- include swiper-card-md.html name=item.name image=item.image
+            link=item.link -%}
+          </div>
+          {%- endfor -%}
+        </div>
+        <div class="swiper-prev absolute inset-y-0 left-0 w-16 z-10"></div>
+        <div class="swiper-next absolute inset-y-0 right-0 w-16 z-10"></div>
       </div>
-      {%- endfor -%}
     </div>
-    <div class="swiper-prev absolute inset-y-0 left-0 w-16 z-10"></div>
-    <div class="swiper-next absolute inset-y-0 right-0 w-16 z-10"></div>
-  </div>
+  </section>
 </div>
 <section>
   {%- include footer.html -%}
