@@ -3,12 +3,9 @@
   {%- include head.html -%}
   <body class=" text-green-900 font-body">
     {%- include header.html -%}
-    <main class="pt-32 min-h-70">
+    <main class="min-h-70">
       {{ content }}
     </main>
-    <section>
-      {%- include footer.html -%}
-    </section>
     <script src="{{ site.baseurl }}{{
         site.data.manifest['main.js']
       }}"></script>

@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<section class="pb-16 lg:pb-24">
-  <div class="mx-auto pb-4">
-    {%- include gallery-images.html -%}
-  </div>
-</section>
+<div class="bg-gradient">
+  <section class="pb-16 lg:pb-24 mt-20">
+    <div class="mx-auto pb-4">
+      {%- include gallery-images.html -%}
+    </div>
+  </section>
 
-{% if page.description != "" %}
-<section class="pb-16 lg:pb-24 ">
-  <div class="max-w-xl mx-auto text-lg px-5">{{ page.description }}</div>
-</section>
-{% endif %}
-<section class="pb-16 lg:pb-24 ">
-  <div class="max-w-xl mx-auto px-5 text-lg">
-    {%- include project-table.html -%}
-  </div>
-</section>
+  {% if page.description != "" %}
+  <section class="pb-16 lg:pb-24 ">
+    <div class="max-w-xl mx-auto text-lg px-5">{{ page.description }}</div>
+  </section>
+  {% endif %}
+  <section class="pb-16 lg:pb-24 ">
+    <div class="max-w-xl mx-auto px-5 text-lg">
+      {%- include project-table.html -%}
+    </div>
+  </section>
+</div>

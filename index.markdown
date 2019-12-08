@@ -9,4 +9,4 @@ We are creating tools for information flow.
 
 Collaborate with designer on presentation website, developing text-to-speech editor and building information system for Czech Primary Prosecutor.
 
-[View introduction](./assets/audio/speech.mp3){: .rounded .border-2 .px-2 .border-gray-900}
+<!-- [View introduction](./assets/audio/speech.mp3){: .rounded .border-2 .px-2 .border-gray-900} -->
