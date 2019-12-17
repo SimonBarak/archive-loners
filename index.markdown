@@ -9,4 +9,6 @@ We creating tools for information flow.
 
 Collaborate with designers on [presentation website](/projects/projects-archive/) or building visual system for [Czech Primary Prosecutor](/projects/webpage-portfolio.html).
 
+[simon@loners.company](mailto:simon@loners.company)
+
 <!-- [View introduction](./assets/audio/speech.mp3){: .rounded .border-2 .px-2 .border-gray-900} -->
