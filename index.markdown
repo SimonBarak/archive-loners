@@ -7,7 +7,7 @@ layout: home
 
 We are open collective developing tools for&nbsp;information flow with ethical and culture values.
 
-Recently, we collaborate with designers on [presentation websites](/projects/projects-archive/) or&nbsp;building visual system for [Czech Primary Prosecutor](/projects/webpage-portfolio.html)
+Recently, we collaborate with designers on presentation websites or&nbsp;building visual system for Czech Primary Prosecutor.
 
 [simon@loners.company](mailto:simon@loners.company)
 
