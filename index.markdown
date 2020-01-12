@@ -5,9 +5,12 @@
 layout: home
 ---
 
-Loners.company is a collective of designers, coders, and artists. We believe in cooperation, which allows us to&nbsp;do greater things. Discussion about ethical principles and simplicity in design which makes information clear are important for us. We create tools that help communication between public and institutions, architects, artists or others. We are always open to collaborate. Feel free to reach us!
+Loners.company is a collective of designers, coders, and artists.
 
-[Mail](mailto:simon@loners.company)
-[Twitter](mailto:simon@loners.company)
+We believe in cooperation, which allows us to&nbsp;do greater things. Discussion about ethical principles and simplicity in design which makes information clear are important for us. We create tools that help communication between public and institutions, architects, artists or others.
+
+We are always open to collaborate. Feel free to reach us!
+
+[Mail,](mailto:simon@loners.company) [Twitter](https://twitter.com/S_SCHITACCI)
 
 <!-- [View introduction](./assets/audio/speech.mp3){: .rounded .border-2 .px-2 .border-gray-900} -->
