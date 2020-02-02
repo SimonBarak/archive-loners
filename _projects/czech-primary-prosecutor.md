@@ -1,7 +1,7 @@
 ---
 layout: project
 date: 2019-10-10T13:56:19.000+00:00
-title: NSZ
+title: Czech Primary Prosecutor
 images:
   - "/v1571135745/loners/NSZ_eixkzj.png"
   - "/v1571135745/loners/NSZ2_r3cmcv.png"
@@ -12,6 +12,7 @@ images:
 shortDesript: short description
 website: ""
 github_project: ""
+authors: ["Magdaléna", "Šimon"]
 ---
 
 New visual identity for the Public Prosecutor’s Office of the Czech Republic. Created for easier internal communication, better presentations for public and unification of all 116 kinds of prosecutions.

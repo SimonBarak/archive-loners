@@ -11,6 +11,7 @@ images:
 shortDesript: short description
 website: http://martinaruzickova.xyz
 github_project: ""
+authors: ["Magdaléna", "Šimon"]
 ---
 
 A website for Czech artist Martina Růžičková created as her magical world where you can wander and get lost.

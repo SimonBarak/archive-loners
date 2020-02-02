@@ -1,11 +1,12 @@
-{% if include.href %}
-<a class="block" href="{{site.baseurl}}{{ include.href }}">
+{% if include.link %}
+<a class="block" href="{{site.baseurl}}{{ include.link }}">
   {% endif %}
   <button
-    class="block w-full py-2 px-6 mb-4 hover:bg-gray-300  text-xl border-solid rounded border-2 border-gray-400"
+    data-tag="{{ include.tag }}"
+    class="{{ include.class }} text-xl py-2 px-10 mb-2 mr-2 border-2 border-gray-300 hover:border-gray-600 hover:bg-gray-800 rounded-lg transition"
   >
     {{ include.content }}
   </button>
-  {% if include.href %}
+  {% if include.link %}
 </a>
 {% endif %}

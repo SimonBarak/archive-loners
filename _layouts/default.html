@@ -2,7 +2,7 @@
 <html lang="en">
   {%- include head.html -%}
   <body class="bg-gray-900 text-gray-200 font-body">
-
+    {%- if page.layout != "home" -%} {%- include header.html -%} {%- endif -%}
     <main class="min-h-70">
       {{ content }}
     </main>

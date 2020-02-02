@@ -3,20 +3,30 @@ layout: default
 ---
 
 <div class="">
-  <section class="pb-16 lg:pb-24 mt-20">
+  <section class="pb-16 mt-20">
     <div class="mx-auto pb-4">
       {%- include gallery-images.html -%}
     </div>
   </section>
 
+  {% if page.website and page.website != "" %}
+  <section class="pb-16 ">
+    <div class="max-w-xl mx-auto text-lg px-5 text-center">
+      {%- include btn-lg.html content="Link to website" link=page.website -%}
+    </div>
+  </section>
+  {% endif %}<!-- -  -->
+  {% if page.content %}
+  <section class="pb-16 ">
+    <div class="max-w-xl mx-auto text-lg px-5">
+      {{ content }}
+    </div>
+  </section>
+  {% endif %}
+  <!-- -  -->
   {% if page.description != "" %}
   <section class="pb-16 lg:pb-24">
     <div class="max-w-xl mx-auto text-lg px-5">{{ page.description }}</div>
   </section>
   {% endif %}
-  <section class="pb-16 lg:pb-24">
-    <div class="max-w-xl mx-auto px-5 text-lg">
-      {%- include project-table.html -%}
-    </div>
-  </section>
 </div>
