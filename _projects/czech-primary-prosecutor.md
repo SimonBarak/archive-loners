@@ -3,12 +3,10 @@ layout: project
 date: '2019-10-10T13:56:19.000+00:00'
 title: Czech Primary Prosecutor
 images:
+- "/v1580811706/loners/Screenshot_2019-12-04_12.03.20_m2t8zs.jpg"
 - "/v1570715619/loners/nsz_bds6g1.jpg"
 - "/v1571135747/loners/NSZ5_ib3m1l.png"
 - "/v1571135745/loners/NSZ52_nnsigc.png"
-- "/v1571135745/loners/NSZ2_r3cmcv.png"
-- "/v1571135745/loners/NSZ3_h9yejv.png"
-- "/v1571135745/loners/NSZ4_zskdmr.png"
 shortDesript: short description
 website: ''
 github_project: ''
