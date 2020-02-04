@@ -9,6 +9,8 @@ shortDesript: ''
 website: https://ruvk.info/
 github_project: ''
 examples: []
-authors: []
+authors:
+- Šimon
+- Magdaléna
 
 ---
