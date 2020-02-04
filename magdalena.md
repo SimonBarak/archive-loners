@@ -1,9 +1,9 @@
 ---
 layout: project-index
-title: Šimon
+title: Magdaléna
 ---
 
-Hello my name is Šimon. I'm student and designer based in Internet.
+Text I'm Magda
 
 Developing [text to speech service](https://youtu.be/n_IuBiKafLg), project websites and visual system for Czech Primary Prosecutor.
 

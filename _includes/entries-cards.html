@@ -1,5 +1,5 @@
 <div class="flex flex-wrap items-baseline">
-  {% assign items = site.projects | where: "authors","Šimon" %}
+  {% assign items = site.projects | where: "authors", page.title %}
   <!-- . -->
   {%- for item in items -%}
   <div class="entrie p-2 pb-3" data-tag="{{item.category}}">
