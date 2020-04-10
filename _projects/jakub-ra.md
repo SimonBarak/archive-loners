@@ -1,7 +1,7 @@
 ---
 layout: project
 date: '2019-10-10T13:56:19.000+00:00'
-title: Jakub Ra visual artist - photography Porfolio
+title: Jakub Ra (Porfolio)
 thumb: "/v1570715619/loners/jakub-thumb_gnen7d.jpg"
 images:
 - "/v1586540789/loners/Screenshot_2020-04-10_19.45.54_trhae8.jpg"
