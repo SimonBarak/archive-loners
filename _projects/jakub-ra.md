@@ -1,7 +1,7 @@
 ---
 layout: project
 date: '2019-10-10T13:56:19.000+00:00'
-title: Jakub Ra (Porfolio)
+title: jakubra.com
 thumb: "/v1570715619/loners/jakub-thumb_gnen7d.jpg"
 images:
 - "/v1575835865/loners/jakub-thumb_ilh5m6.jpg"
