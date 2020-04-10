@@ -9,7 +9,7 @@ images:
 - "/v1586542327/loners/mparch3_kjik8f.jpg"
 - "/v1586542329/loners/mparch6_cg3tdy.jpg"
 - "/v1586542329/loners/mparch8_gyic3m.jpg"
-shortDesript: Web archive for architecture studio
+shortDesript: Web archive and porfolio for architecture studio MpArch
 website: https://mparch.cz/
 github_project: ''
 examples: []
