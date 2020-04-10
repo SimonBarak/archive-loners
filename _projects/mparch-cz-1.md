@@ -2,6 +2,7 @@
 layout: project
 title: wavepage.app
 images:
+- "/v1586545996/loners/Screenshot_2020-04-10_21.13.01_nebiqr.jpg"
 - "/v1586545492/loners/wavepage3_qvgxhb.jpg"
 - "/v1586545684/loners/wavepage5_dxqrew.jpg"
 - "/v1586545491/loners/wavepage2_h4xtkm.jpg"
