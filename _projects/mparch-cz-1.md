@@ -2,10 +2,10 @@
 layout: project
 title: wavepage.app
 images:
-- "/v1586542975/loners/wavepage4_tgshju.jpg"
-- "/v1586542973/loners/wavepage3_whvsnn.jpg"
-- "/v1586542975/loners/wavepage2_fpstx6.jpg"
-- "/v1586542964/loners/wavepage0_bhl43c.jpg"
+- "/v1586545492/loners/wavepage3_qvgxhb.jpg"
+- "/v1586545491/loners/wavepage2_h4xtkm.jpg"
+- "/v1586545492/loners/wavepage1_dxgyfc.jpg"
+- "/v1586545489/loners/wavepage_odn3yz.jpg"
 shortDesript: Edit content in text and audio layer will automatically synchronize
   with best quality AI voices.
 website: https://wavepage.app
