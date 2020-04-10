@@ -13,6 +13,5 @@ github_project: https://github.com/lonersCompany/withspeech
 examples: []
 authors:
 - Šimon
-published: false
 
 ---
