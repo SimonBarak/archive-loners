@@ -9,7 +9,7 @@ images:
 shortDesript: Edit content in text and audio layer will automatically synchronize
   with best quality AI voices.
 website: https://wavepage.app
-github_project: ''
+github_project: https://github.com/lonersCompany/withspeech
 examples: []
 authors:
 - Šimon
