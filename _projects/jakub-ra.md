@@ -4,7 +4,6 @@ date: '2019-10-10T13:56:19.000+00:00'
 title: Jakub Ra (Porfolio)
 thumb: "/v1570715619/loners/jakub-thumb_gnen7d.jpg"
 images:
-- "/v1586540789/loners/Screenshot_2020-04-10_19.45.54_trhae8.jpg"
 - "/v1575835865/loners/jakub-thumb_ilh5m6.jpg"
 - "/v1586540783/loners/Screenshot_2020-04-10_19.45.59_iabaok.jpg"
 - "/v1586540795/loners/Screenshot_2020-04-10_19.45.26_ti7tpz.jpg"
