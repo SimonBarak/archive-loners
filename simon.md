@@ -4,7 +4,7 @@ title: Simon
 headline: I'm web designer based in Internet
 ---
 
-Currently I'm developing [WavePage](https://wavepage.app/) 👋🏼 Studing digital product at [Brno University of Technologie](https://www.vutbr.cz/en/) 📚 Before I start university a worked at [solidpixels.net](https://www.solidpixels.net/en) as a junior front-end developer. Now I'm looking for a meaningful internship in a progressive collective. A little chat?
+Currently I'm developing [WavePage](https://wavepage.app/) 👋🏼 Studing digital product at [Brno University of Technologie](https://www.vutbr.cz/en/) 📚 Before I start university a worked at [solidpixels.net](https://www.solidpixels.net/en) as a junior front-end developer. Now I'm looking for a meaningful internship in a progressive collective.
 
 <!-- My work enviroment is combination of smart tools: -->
 
