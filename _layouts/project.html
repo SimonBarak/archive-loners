@@ -3,21 +3,21 @@ layout: default
 ---
 
 <div class="">
-  <section class="pb-16 mt-20">
+  <section class="py-4">
     <div class="mx-auto pb-4">
       {%- include gallery-images.html -%}
     </div>
   </section>
 
   {% if page.website and page.website != "" %}
-  <section class="pb-16 ">
+  <section class="py-4">
     <div class="max-w-xl mx-auto text-lg px-5 text-center">
       {%- include btn-lg.html content="Link to website" link=page.website -%}
     </div>
   </section>
   {% endif %}<!-- -  -->
   {% if page.content %}
-  <section class="pb-16 ">
+  <section class="py-4">
     <div class="max-w-xl mx-auto text-lg px-5">
       {{ content }}
     </div>
@@ -25,7 +25,7 @@ layout: default
   {% endif %}
   <!-- -  -->
   {% if page.description != "" %}
-  <section class="pb-16 lg:pb-24">
+  <section class="py-4 lg:pb-24">
     <div class="max-w-xl mx-auto text-lg px-5">{{ page.description }}</div>
   </section>
   {% endif %}
