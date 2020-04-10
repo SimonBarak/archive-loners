@@ -16,6 +16,5 @@ examples: []
 authors:
 - Magdaléna
 - Šimon
-published: false
 
 ---
