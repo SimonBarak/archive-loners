@@ -4,15 +4,18 @@ layout: default
 
 <!-- -  -->
 
-<section class="pb-10 pt-32">
-  <div class="md:max-w-2xl lg:max-w-5xl mx-auto px-5 text-xl text-block">
-    <div class=""><h1>{{ page.headline }}</h1></div>
-    <div class="max-w-xl">{{ content }}</div>
+<section class="py-12">
+  <div class="md:max-w-2xl lg:max-w-5xl mx-auto px-2">
+    <div class="text-5xl mb-3"><h1>{{ page.headline }}</h1></div>
+    <div class="max-w-xl text-xl">{{ content }}</div>
   </div>
 </section>
-<section>
+<section class="py-12">
   <div class="md:max-w-2xl lg:max-w-5xl mx-auto">
-    <div class="flex flex-wrap items-baseline">
+    <p class="px-2 text-xl mb-3">
+      Contacts
+    </p>
+    <div class="flex flex-wrap items-baseline px-2">
       <a
         class="flex block cursor-pointer border-2 border-gray-700 hover:border-blue-500 items-center rounded-lg p-2 m-2"
       >
@@ -34,8 +37,8 @@ layout: default
       >
         <img
           class="w-10 h-10 rounded-full mr-4"
-          src="./assets/ico/github.svg"
-          alt="Avatar of Jonathan Reinink"
+          src="./assets/ico/icon-github.svg"
+          alt="github icon"
         />
         <div class="">
           <div class="leading-none">GitHub</div>
@@ -50,7 +53,7 @@ layout: default
       >
         <img
           class="w-10 h-10 rounded-full mr-4"
-          src="./assets/ico/mail.svg"
+          src="./assets/ico/icon-mail.svg"
           alt="Avatar of Jonathan Reinink"
         />
         <div class="">
@@ -64,12 +67,80 @@ layout: default
   </div>
 </section>
 <!-- -  -->
-<section class="py-16 lg:pb-40">
+<section class="py-12">
+  <div class="md:max-w-2xl lg:max-w-5xl mx-auto">
+    <p class="px-2 text-xl mb-3">
+      Tool box
+    </p>
+    <div class="">
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-js.svg"
+        alt="Javascript icon"
+      />
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-react.svg"
+        alt="react icon"
+      />
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-aws.svg"
+        alt="webpack icon"
+      />
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-webpack.svg"
+        alt="webpack icon"
+      />
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-node.svg"
+        alt="Node icon"
+      />
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-jekyll.svg"
+        alt="Jekyll icon"
+      /><img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-github.svg"
+        alt="github icon"
+      />
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-tailwindcss.svg"
+        alt="tailwindcss icon"
+      />
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-vscode.svg"
+        alt="vscode icon"
+      />
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-figma.svg"
+        alt="figma icon"
+      />
+      <img
+        class="inline-block w-16 h-16 m-2"
+        src="./assets/ico/icon-notion.svg"
+        alt="notion icon"
+      />
+    </div>
+  </div>
+</section>
+<!-- -  -->
+
+<section class="py-12 lg:pb-40">
   <div
     id="entries"
     class="entries md:max-w-2xl lg:max-w-5xl mx-auto"
     data-view="cards"
   >
+    <p class="px-2 text-xl mb-3">
+      Projects
+    </p>
     <div class="entries-cards">
       {%- include entries-cards.html author="page.author" -%}
     </div>
