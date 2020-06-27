@@ -4,7 +4,7 @@ title: Simon
 headline: I'm designer based on the internet
 ---
 
-Currently I'm developing [WavePage](https://wavepage.app/){:.text-blue-500} 👋🏼 colaborate on visuial identity of the [Czech Prosecutor Intitute](https://www.behance.net/gallery/96467527/Czech-Prosecutor-Institute/){:.text-blue-500} 👨🏽‍💼 I have one more year to finish studies of digital product at [Brno University of Technology](https://www.vutbr.cz/en/){:.text-blue-500} 📚
+Currently I'm developing [WavePage](https://wavepage.app/){:.text-blue-500} 👋🏼 colaborate on visuial identity of the [Czech Prosecutor Intitute](https://www.behance.net/gallery/96467527/Czech-Prosecutor-Institute/){:.text-blue-500} 👨🏽‍💼And I have one more year to finish studies of digital product at [Brno University of Technology](https://www.vutbr.cz/en/){:.text-blue-500} 📚
 
 <!-- My work enviroment is combination of smart tools: -->
 
