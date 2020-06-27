@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{%- include header.html -%}
 <div class="">
   <section class="py-4">
     <div class="mx-auto pb-4">
@@ -9,13 +10,6 @@ layout: default
     </div>
   </section>
 
-  {% if page.website and page.website != "" %}
-  <section class="py-4">
-    <div class="max-w-xl mx-auto text-lg px-5 text-center">
-      {%- include btn-lg.html content="Link to website" link=page.website -%}
-    </div>
-  </section>
-  {% endif %}<!-- -  -->
   {% if page.content %}
   <section class="py-4">
     <div class="max-w-xl mx-auto text-lg px-5">
@@ -24,9 +18,46 @@ layout: default
   </section>
   {% endif %}
   <!-- -  -->
-  {% if page.description != "" %}
+  <!-- {% if page.description != " " %}
   <section class="py-4 lg:pb-24">
     <div class="max-w-xl mx-auto text-lg px-5">{{ page.description }}</div>
   </section>
-  {% endif %}
+  {% endif %} -->
+
+  <section class="py-4">
+    <div class="max-w-xl mx-auto text-lg">
+      <div class="flex flex-wrap justify-center items-baseline px-2">
+        {% if page.website != "" %}
+        <a
+          class="flex block cursor-pointer border-2 border-gray-700 hover:border-blue-500 items-center rounded-lg p-2 m-2"
+          href="{{page.website}}"
+        >
+          <img
+            class="w-10 h-10 rounded-full mr-4"
+            src="/assets/ico/icon-website.svg"
+            alt="github icon"
+          />
+          <div class="">
+            <div class="leading-none">Website</div>
+          </div>
+        </a>
+        {% endif %} {% if page.behance != "" %}
+        <a
+          class="flex block cursor-pointer border-2 border-gray-700 hover:border-blue-500 items-center rounded-lg p-2 m-2"
+          href="{{page.behance}}"
+        >
+          <img
+            class="w-10 h-10 rounded-full mr-4"
+            src="/assets/ico/icon-behance.svg"
+            alt="github icon"
+          />
+          <div class="">
+            <div class="leading-none">Behance</div>
+          </div>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </section>
 </div>
+{%- include header-back.html -%}

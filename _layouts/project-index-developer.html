@@ -12,10 +12,7 @@ layout: default
 </section>
 <section class="py-12">
   <div class="md:max-w-2xl lg:max-w-5xl mx-auto">
-    <p class="px-2 text-xl mb-3">
-      Contacts
-    </p>
-    <div class="flex flex-wrap items-baseline px-2">
+    <div class="flex flex-wrap items-baseline">
       <a
         class="flex block cursor-pointer border-2 border-gray-700 hover:border-blue-500 items-center rounded-lg p-2 m-2"
         href="https://twitter.com/S_SCHIACCI"
@@ -28,18 +25,37 @@ layout: default
         <div class="">
           <div class="leading-none">Twitter</div>
           <div class="text-gray-600">
-            <span>@S_SCHITACCI</span>
+            <span>@S_SCHIACCI</span>
           </div>
         </div>
       </a>
-
+      <a
+        class="flex block cursor-pointer border-2 border-gray-700 hover:border-blue-500 items-center rounded-lg p-2 m-2"
+        href="mailto:simon@loners.company"
+      >
+        <img
+          class="w-10 h-10 rounded-full mr-4"
+          src="/assets/ico/icon-mail.svg"
+          alt="Avatar of Jonathan Reinink"
+        />
+        <div class="">
+          <div class="leading-none">E-mail</div>
+          <div class="text-gray-600">
+            <span>simon@loners.company</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="md:max-w-2xl lg:max-w-5xl mx-auto">
+    <div class="flex flex-wrap items-baseline">
       <a
         class="flex block cursor-pointer border-2 border-gray-700 hover:border-blue-500 items-center rounded-lg p-2 m-2"
         href="https://github.com/lonersCompany"
       >
         <img
           class="w-10 h-10 rounded-full mr-4"
-          src="./assets/ico/icon-github.svg"
+          src="/assets/ico/icon-github.svg"
           alt="github icon"
         />
         <div class="">
@@ -52,100 +68,60 @@ layout: default
 
       <a
         class="flex block cursor-pointer border-2 border-gray-700 hover:border-blue-500 items-center rounded-lg p-2 m-2"
-        href="mailto:simon@loners.company"
+        href="https://twitter.com/S_SCHIACCI"
       >
         <img
           class="w-10 h-10 rounded-full mr-4"
-          src="./assets/ico/icon-mail.svg"
-          alt="Avatar of Jonathan Reinink"
+          src="/assets/ico/icon-behance.svg"
+          alt="Behance Icon"
         />
         <div class="">
-          <div class="leading-none">E-mail</div>
+          <div class="leading-none">Behance</div>
           <div class="text-gray-600">
-            <span>simon@loners.company</span>
+            <span>/simon-barak</span>
+          </div>
+        </div>
+      </a>
+
+      <a
+        class="flex block cursor-pointer border-2 border-gray-700 hover:border-blue-500 items-center rounded-lg p-2 m-2"
+        href="https://www.linkedin.com/in/simon-barak/"
+      >
+        <img
+          class="w-10 h-10 rounded-full mr-4"
+          src="/assets/ico/icon-linkedin.svg"
+          alt="Behance Icon"
+        />
+        <div class="">
+          <div class="leading-none">LinkedIn</div>
+          <div class="text-gray-600">
+            <span>/simon-barak</span>
           </div>
         </div>
       </a>
     </div>
   </div>
 </section>
-<!-- -  -->
-<section class="py-12">
-  <div class="md:max-w-2xl lg:max-w-5xl mx-auto">
-    <p class="px-2 text-xl mb-3">
-      Tool box
-    </p>
-    <div class="">
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-js.svg"
-        alt="Javascript icon"
-      />
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-react.svg"
-        alt="react icon"
-      />
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-aws.svg"
-        alt="webpack icon"
-      />
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-webpack.svg"
-        alt="webpack icon"
-      />
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-node.svg"
-        alt="Node icon"
-      />
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-jekyll.svg"
-        alt="Jekyll icon"
-      /><img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-github.svg"
-        alt="github icon"
-      />
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-tailwindcss.svg"
-        alt="tailwindcss icon"
-      />
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-vscode.svg"
-        alt="vscode icon"
-      />
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-figma.svg"
-        alt="figma icon"
-      />
-      <img
-        class="inline-block w-12 h-12 m-2"
-        src="./assets/ico/icon-notion.svg"
-        alt="notion icon"
-      />
-    </div>
-  </div>
-</section>
+
 <!-- -  -->
 
-<section class="py-12 lg:pb-40">
+<section class="py-12">
   <div
     id="entries"
     class="entries md:max-w-2xl lg:max-w-5xl mx-auto"
     data-view="cards"
   >
-    <p class="px-2 text-xl mb-3">
-      Projects
-    </p>
     <div class="entries-cards">
       {%- include entries-cards.html author="page.author" -%}
     </div>
+  </div>
+</section>
+<!-- -  -->
+<section class="py-12 lg:pb-40">
+  <div class="md:max-w-2xl lg:max-w-5xl mx-auto">
+    <p class="px-2 text-xl mb-3">
+      Tool box
+    </p>
+    {%- include tool-box.html -%}
   </div>
 </section>

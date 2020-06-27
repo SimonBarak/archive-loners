@@ -12,6 +12,8 @@ images:
   - "/v1586542329/loners/mparch8_gyic3m.jpg"
 shortDesript: Web archive and porfolio for architecture studio MpArch
 website: https://mparch.cz/
+weight: 30
+behance: ""
 github_project: ""
 examples: []
 authors:

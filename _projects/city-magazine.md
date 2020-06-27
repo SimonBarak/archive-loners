@@ -1,6 +1,7 @@
 ---
 layout: project
 title: City Magazine
+weight: 999
 images:
   - "/v1580657545/loners/Screenshot_2020-02-02_16.31.47_rox3gf.jpg"
   - "/v1580657546/loners/Screenshot_2020-02-02_16.31.58_ercvcs.jpg"
@@ -9,6 +10,7 @@ shortDesript: ""
 website: https://ruvk.info/
 github_project: ""
 examples: []
+behance: ""
 authors:
   - Simon
   - Magdaléna

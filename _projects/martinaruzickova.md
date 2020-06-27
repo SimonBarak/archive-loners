@@ -15,6 +15,8 @@ authors:
   - Magdaléna
   - Simon
 examples: []
+weight: 999
+behance: ""
 ---
 
 A website for Czech artist Martina Růžičková created as her magical world where you can wander and get lost.

@@ -1,10 +1,10 @@
 ---
 layout: project-index-developer
 title: Simon
-headline: I'm web designer based in Internet
+headline: I'm designer based on the internet
 ---
 
-Currently I'm developing [WavePage](https://wavepage.app/){:.text-blue-500} 👋🏼 Studing digital product at [Brno University of Technology](https://www.vutbr.cz/en/){:.text-blue-500} 📚 Before I started university I worked at [solidpixels.net](https://www.solidpixels.net/en){:.text-blue-500} as a&nbsp;front-end developer. Now I'm looking for a&nbsp;internship in a progressive collective.
+Currently I'm developing [WavePage](https://wavepage.app/){:.text-blue-500} 👋🏼 colaborate on visuial identity of the [Czech Prosecutor Intitute](https://www.behance.net/gallery/96467527/Czech-Prosecutor-Institute/){:.text-blue-500} 👨🏽‍💼 I have one more year to finish studies of digital product at [Brno University of Technology](https://www.vutbr.cz/en/){:.text-blue-500} 📚
 
 <!-- My work enviroment is combination of smart tools: -->
 

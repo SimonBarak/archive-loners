@@ -1,12 +1,27 @@
 <div class="swiper-container" mode="slide" zoom="false">
-  <!-- <div class="swiper-pagination pb-5 w-full z-40"></div> -->
   <div class="swiper-wrapper">
     {%- for image in page.images -%}
-    <div class="swiper-slide pt-2 pb-2">
+    <div class="swiper-slide py-2">
       {%- include image.html -%}
     </div>
     {%- endfor -%}
   </div>
-  <div class="swiper-prev absolute inset-y-0 left-0 w-1/4 z-10"></div>
-  <div class="swiper-next absolute inset-y-0 right-0 w-1/4 z-10"></div>
+  <div
+    class="swiper-prev flex absolute inset-y-0 left-0 w-1/4 z-10 hover-scale"
+  >
+    <div class="self-center w-full text-2xl px-4">
+      <span class="arrow">
+        ⟵
+      </span>
+    </div>
+  </div>
+  <div
+    class="swiper-next flex absolute inset-y-0 right-0 w-1/4 z-10 hover-scale"
+  >
+    <div class="self-center w-full text-right text-2xl px-4">
+      <span class="arrow">
+        ⟶
+      </span>
+    </div>
+  </div>
 </div>

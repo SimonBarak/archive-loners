@@ -1,7 +1,8 @@
 <div class="flex flex-wrap items-baseline">
-  {% assign items = site.projects | where: "authors", page.title %}
+  {% assign items = site.projects | sort: 'weight' %}<!-- . -->
+  {% assign itemsitems = items | where: "authors", page.title %}
   <!-- . -->
-  {%- for item in items -%}
+  {%- for item in itemsitems -%}
   <div class="entrie p-2 pb-3" data-tag="{{item.category}}">
     {%- include project-card-md.html headline=item.location subline=item.title
     tag=item.category -%}
