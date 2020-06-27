@@ -16,6 +16,7 @@ authors:
   - Simon
 examples: []
 behance: ""
+thumb: "/v1570715619/loners/nsz_bds6g1.jpg"
 behance: "https://www.behance.net/gallery/96467527/Czech-Prosecutor-Institute"
 ---
 

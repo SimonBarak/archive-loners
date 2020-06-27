@@ -11,6 +11,7 @@ website: https://ruvk.info/
 github_project: ""
 examples: []
 behance: ""
+thumb: "/v1580657545/loners/Screenshot_2020-02-02_16.31.47_rox3gf.jpg"
 authors:
   - Simon
   - Magdaléna

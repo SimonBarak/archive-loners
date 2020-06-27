@@ -3,8 +3,8 @@ layout: project
 date: "2019-10-10T13:56:19.000+00:00"
 title: jakubra.com
 weight: 999
-behance: ""
-thumb: "/v1570715619/loners/jakub-thumb_gnen7d.jpg"
+behance: "https://www.behance.net/gallery/96565345/Jakub-Ra"
+thumb: "/v1575835865/loners/jakub-thumb_ilh5m6.jpg"
 images:
   - "/v1575835865/loners/jakub-thumb_ilh5m6.jpg"
   - "/v1586540783/loners/Screenshot_2020-04-10_19.45.59_iabaok.jpg"
