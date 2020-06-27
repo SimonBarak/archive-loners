@@ -3,9 +3,8 @@ layout: project
 title: Wavepage
 images:
 - "/v1593266662/loners/atom-thumb_outcah.jpg"
-- "/v1593266715/loners/atom_pztawh.png"
-- "/v1586545996/loners/Screenshot_2020-04-10_21.13.01_nebiqr.jpg"
 - "/v1586545684/loners/wavepage5_dxqrew.jpg"
+- "/v1593266715/loners/atom_pztawh.png"
 - "/v1586545492/loners/wavepage3_qvgxhb.jpg"
 - "/v1586545491/loners/wavepage2_h4xtkm.jpg"
 - "/v1586545492/loners/wavepage1_dxgyfc.jpg"
