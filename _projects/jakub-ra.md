@@ -16,7 +16,7 @@ images:
   - "/v1586540656/loners/Screenshot_2020-04-10_19.39.25_hjc5bp.jpg"
   - "/v1586540656/loners/Screenshot_2020-04-10_19.39.04_fzfi9j.jpg"
 shortDesript: Website designed for Czech photographer Jakub Ra
-website: http://jakubra.com
+website: https://lonerscompany.github.io/strobo/
 github_project: ""
 authors:
   - Magdaléna
