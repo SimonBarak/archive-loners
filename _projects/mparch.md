@@ -15,7 +15,7 @@ website: https://mparch.cz/
 weight: 30
 thumb: "/v1586546182/loners/Screenshot_2020-04-10_21.16.05_t2wghz.jpg"
 behance: "https://www.behance.net/gallery/96465019/M-P-Architekti"
-github_project: ""
+github_project: "https://github.com/lonersCompany/project-archive"
 examples: []
 authors:
   - Magdaléna
