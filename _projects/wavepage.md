@@ -2,22 +2,19 @@
 layout: project
 title: Wavepage.app
 images:
-  - "/v1586545492/loners/wavepage3_qvgxhb.jpg"
-  - "/v1586545491/loners/wavepage2_h4xtkm.jpg"
-  - "/v1586545492/loners/wavepage1_dxgyfc.jpg"
-  - "/v1586545489/loners/wavepage_odn3yz.jpg"
-  - "/v1593266715/loners/atom_pztawh.png"
-shortDesript:
-  Edit content in text and audio layer will automatically synchronize
+- "/v1599494981/loners/vk-_2020-09-07_at_18.06.49_mde60x.jpg"
+- "/v1599494981/loners/vk-_2020-09-07_at_18.08.40_byhjxq.jpg"
+- "/v1599494980/loners/vk-_2020-09-07_at_18.08.50_ewooct.jpg"
+shortDesript: Edit content in text and audio layer will automatically synchronize
   with best quality AI voices.
 website: https://wavepage.app
 github_project: https://github.com/lonersCompany/withspeech
 examples: []
 weight: 1
-behance: ""
-thumb: "/v1593266662/loners/atom-thumb_outcah.jpg"
+behance: ''
+thumb: "/v1593266591/loners/atom-thumb_sibzem.jpg"
 authors:
-  - Simon
----
+- Simon
 
+---
 Wavepage is editor for multimedia learning. Wavepage convert article into presentation with AI voices. Write the aticle add the images and AI will make presentation with vocie-over - simply.
