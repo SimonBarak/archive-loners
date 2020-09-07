@@ -4,13 +4,13 @@ layout: default
 
 <!-- -  -->
 
-<section class="pt-20 pb-10">
+<section class="pt-20 pb-10 blure-in">
   <div class="md:max-w-2xl lg:max-w-5xl mx-auto px-2">
     <div class="text-5xl mb-3"><h1>{{ page.headline }}</h1></div>
     <div class="max-w-2xl text-xl">{{ content }}</div>
   </div>
 </section>
-<section class="py-10">
+<section class="py-10 blure-in">
   <div class="md:max-w-2xl lg:max-w-5xl mx-auto">
     <div class="flex flex-wrap items-baseline">
       <a
@@ -105,7 +105,7 @@ layout: default
 
 <!-- -  -->
 
-<section class="py-10">
+<section class="py-10 blure-in">
   <div
     id="entries"
     class="entries md:max-w-2xl lg:max-w-5xl mx-auto"
@@ -117,11 +117,74 @@ layout: default
   </div>
 </section>
 <!-- -  -->
+<section class="py-10">
+  <div class="md:max-w-2xl lg:max-w-5xl mx-auto">
+    <h2 class="text-5xl mb-3">Tool box</h2>
+    {%- include tool-box.html -%}
+  </div>
+</section>
+
 <section class="py-10 lg:pb-40">
   <div class="md:max-w-2xl lg:max-w-5xl mx-auto">
-    <p class="px-2 text-xl mb-3">
-      Tool box
-    </p>
-    {%- include tool-box.html -%}
+    <h2 class="text-5xl mb-3">Links</h2>
+
+    <div class="p-2 pb-3">
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">
+          Is anybody else missing text and images when listening to
+          audiobooks?<br /><br />I think that copy note or search in the text is
+          an important feature for audiobook interface.
+          <a
+            href="https://twitter.com/hashtag/audiobook?src=hash&amp;ref_src=twsrc%5Etfw"
+            >#audiobook</a
+          >
+          <a
+            href="https://twitter.com/hashtag/tts?src=hash&amp;ref_src=twsrc%5Etfw"
+            >#tts</a
+          >
+          <a
+            href="https://twitter.com/hashtag/webdevelopment?src=hash&amp;ref_src=twsrc%5Etfw"
+            >#webdevelopment</a
+          >
+          <a
+            href="https://twitter.com/hashtag/Dyslexia?src=hash&amp;ref_src=twsrc%5Etfw"
+            >#Dyslexia</a
+          >
+          <a href="https://t.co/fwvwKH9UCn">pic.twitter.com/fwvwKH9UCn</a>
+        </p>
+        &mdash; Šimon Bařák (@S_SCHIACCI)
+        <a
+          href="https://twitter.com/S_SCHIACCI/status/1278723414677696514?ref_src=twsrc%5Etfw"
+          >July 2, 2020</a
+        >
+      </blockquote>
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
+    </div>
+
+    <div class="p-2 pb-3">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/8n6D7fhu5Bk"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="p-2 pb-3">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Aci1JJWJVHE"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
   </div>
 </section>

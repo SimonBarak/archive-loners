@@ -8,12 +8,12 @@
 
 @import "./scss/_fonts.scss";
 
-.menu-is-open {
-  //overflow: hidden;
-  main {
-    filter: blur(10px);
-  }
-}
+// .menu-is-open {
+//   //overflow: hidden;
+//   main {
+//     filter: blur(10px);
+//   }
+// }
 
 .entries-cards,
 .entries-table {
@@ -149,6 +149,10 @@ td {
   }
 }
 
+.blure-in {
+  animation: blur 1.5s ease-in;
+}
+
 .min-h-70 {
   min-height: 70vh;
 }
@@ -210,5 +214,16 @@ div > a.mapboxgl-ctrl-logo,
 
   &.active {
     background: rgb(0, 49, 112);
+  }
+}
+
+@keyframes blur {
+  from {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
   }
 }

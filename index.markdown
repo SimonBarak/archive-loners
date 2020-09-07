@@ -1,16 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: project-index-developer
+title: Simon
+headline: I'm designer based on the internet
 ---
 
-Loners.company is a collective of designers, coders, and artists.
-
-We believe in cooperation, which allows us to&nbsp;do greater things. Discussion about ethical principles and simplicity in design which makes information clear are important for us. We create tools that help communication between public and institutions, architects, artists or others.
-
-We are always open to collaborate. Feel free to reach us!
-
-[Mail,](mailto:simon@loners.company) [Twitter](https://twitter.com/S_SCHITACCI)
-
-<!-- [View introduction](./assets/audio/speech.mp3){: .rounded .border-2 .px-2 .border-gray-900} -->
+Currently I'm developing [WavePage](https://wavepage.app/){:.text-blue-500} 👋🏼, editor for text-to-speech. Collaborating on visual comunication of the [Czech Prosecutor Intitute](https://www.behance.net/gallery/96467527/Czech-Prosecutor-Institute/){:.text-blue-500} 👨🏽‍💼 and I have one more year to finish studies of digital product at [Brno University of Technology](https://www.vutbr.cz/en/){:.text-blue-500} 📚

@@ -5,16 +5,12 @@ layout: default
 {%- include header.html -%}
 <div class="">
   <section class="py-4">
-    <div class="mx-auto pb-4">
-      {%- include gallery-images.html -%}
-    </div>
+    <div class="mx-auto pb-4">{%- include gallery-images.html -%}</div>
   </section>
 
   {% if page.content %}
   <section class="py-4">
-    <div class="max-w-xl mx-auto text-lg px-5">
-      {{ content }}
-    </div>
+    <div class="max-w-xl mx-auto text-lg px-5">{{ content }}</div>
   </section>
   {% endif %}
   <!-- -  -->
@@ -24,7 +20,7 @@ layout: default
   </section>
   {% endif %} -->
 
-  <section class="py-4">
+  <section class="py-16">
     <div class="max-w-xl mx-auto text-lg">
       <div class="flex flex-wrap justify-center items-baseline px-2">
         {% if page.website != "" %}

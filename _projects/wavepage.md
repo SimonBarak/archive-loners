@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Wavepage
+title: Wavepage.app
 images:
   - "/v1586545492/loners/wavepage3_qvgxhb.jpg"
   - "/v1586545491/loners/wavepage2_h4xtkm.jpg"
@@ -20,4 +20,4 @@ authors:
   - Simon
 ---
 
-Wavepage is editor for multimedia learning and my solo project. Add text with images and audio layer will automatically synchronize. Convert internet knowleadge into better learning experience - simply
+Wavepage is editor for multimedia learning. Wavepage convert article into presentation with AI voices. Write the aticle add the images and AI will make presentation with vocie-over - simply.

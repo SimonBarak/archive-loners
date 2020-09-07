@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/lonersCompany/archive-loners.git",
-  "author": "Schittaci-air <barak.simon.as@gmail.com>",
+  "author": "simon-barak.link",
   "license": "MIT",
   "scripts": {
     "prod": "NODE_ENV=production webpack",
