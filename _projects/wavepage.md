@@ -12,7 +12,7 @@ github_project: https://github.com/lonersCompany/withspeech
 examples: []
 weight: 1
 behance: ''
-thumb: "/v1599496219/loners/wavepage_qyahv5.jpg"
+thumb: "/v1600377988/loners/vk-_2020-09-17_at_23.13.32_ihlvp2.jpg"
 authors:
 - Simon
 
