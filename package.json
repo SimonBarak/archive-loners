@@ -8,7 +8,7 @@
   "scripts": {
     "prod": "NODE_ENV=production webpack",
     "dev": "NODE_ENV=development webpack",
-    "start": "Code . | NODE_ENV=development webpack --watch | bundle exec jekyll serve"
+    "start": "Code . | NODE_ENV=development webpack --watch | bundle exec jekyll serve --trace"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.3.0",

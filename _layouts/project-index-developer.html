@@ -6,7 +6,7 @@ layout: default
 
 <section class="pt-20 pb-10 blure-in">
   <div class="mx-auto px-2 md:max-w-2xl lg:max-w-5xl">
-    <div class="mb-3 text-3xl md:text-6xl"><h1>{{ page.headline }}</h1></div>
+    <h1 class="mb-10 text-3xl md:text-6xl font-light">{{ page.headline }}</h1>
     <div class="max-w-2xl text-xl">{{ content }}</div>
   </div>
 </section>
@@ -111,9 +111,7 @@ layout: default
     class="entries md:max-w-2xl lg:max-w-5xl mx-auto"
     data-view="cards"
   >
-    <div class="entries-cards">
-      {%- include entries-cards.html author="page.author" -%}
-    </div>
+    <div class="entries-cards">{%- include entries-cards.html -%}</div>
   </div>
 </section>
 <!-- -  -->
