@@ -1,5 +1,5 @@
 ---
-layout: project-index-developer
+layout: home
 title: Loners.company
 description: Loners.company is a collective of designers
 thumb: "/v1600380306/loners/og-files_gjaxcp.jpg"
