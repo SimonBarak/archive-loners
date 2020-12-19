@@ -1,0 +1,102 @@
+@font-face {
+    font-family:"Supernormal Regular";
+    src:url("SuisseIntl-Regular2") format("woff2"),url("SuisseIntl-Regular.woff") format("woff"),url("fonts/SuisseIntl-Regular.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+
+:root {
+    --c-black: #000;
+    --c-white: #fff;
+    --c-light-gray: #f2f2f2;
+    --c-dark-gray: #A6A6A6;
+    --c-light-blue: #2E76F6;
+    --c-dark-blue: #2156B7;
+    --c-purple: #9100ff;
+    --c-red: red;
+
+}
+
+html { box-sizing: border-box }
+*, *:before, *:after { box-sizing: inherit }
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, input { margin: 0; padding: 0 }
+input { border: 0 }
+* { font-weight: normal !important;}
+
+html {
+    font-family: "Supernormal Regular", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+label {
+    font-size: inherit;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    padding-bottom: 6rem;
+    color: var(--black);
+    line-height: 3.7rem;
+}
+
+
+a {
+    font-size: 3rem;
+    color: var(--c-light-blue);
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: var(--c-dark-blue);
+}
+
+.button {
+    color: var(--c-black);
+    background-color: var(--c-light-gray);
+    text-align: center;
+    border: 2px solid var(--c-black);
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+    position: fixed;
+    left: 1rem;
+    bottom: 1rem;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #FF3131
+    }
+
+    100% {
+        background-color: #FF317C
+    }
+}
+
+body {
+    padding: 1rem 2rem 2rem 1rem;
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 3s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@media screen and (max-width: 650px) {
+
+  h1 {
+      font-size: 2.5rem;
+      line-height: 3.1rem;
+  }
+
+  a {
+      font-size: 2.5rem;
+  }
+
+  body {
+      padding: 1rem;
+  }
+
+}
